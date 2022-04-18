@@ -4,21 +4,12 @@ namespace employee
 {
     public class Employee
     {
+
         static void Main(string[] args)
         {
-            //int ispresent = 1;
-            // Random random = new Random();
+     
+            //second commit
 
-            //int empCheck = random.Next(0, 2);
-            //if (empCheck == ispresent)
-            //{
-            //   Console.WriteLine("employee is present");
-
-            //}
-            //else
-            // {
-            //   Console.WriteLine("employee is absent");
-            // }
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
             int empHrs = 0;
@@ -37,9 +28,20 @@ namespace employee
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage :" + empWage);
 
+            
         }
+
     }
+
+
+
+
+
+
+
 }
+
+
 
        
 
