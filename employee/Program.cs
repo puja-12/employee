@@ -4,8 +4,11 @@ namespace employee
 {
     public class Employee
     {
-        //static void Main(string[] args)
-        //{
+
+       // static void Main(string[] args)
+       // {
+       //     Console.WriteLine("Welcome to Employee wage computation program");
+      //  }
             //first commit
 
             //int ispresent = 1;
@@ -67,12 +70,12 @@ namespace employee
 
             //fourth comment
             public const int IS_PART_TIME = 1;
-        public const int IS_FULL_TIME = 2;
+       public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
-        
+
         static void Main(string[] args)
         {
-             int empHrs = 0;
+            int empHrs = 0;
             int empWage = 0;
             Random random = new Random();
             int empCheck = random.Next(0, 3);
