@@ -6,7 +6,27 @@ namespace employee
     {
         static void Main(string[] args)
         {
-        Console.WriteLine("welcome to Employee");
-            } 
+            int ispresent = 1;
+            Random random = new Random();
+
+            int empCheck = random.Next(0, 2);
+            if (empCheck == ispresent)
+            {
+                Console.WriteLine("employee is present");
+
+            }
+            else
+            {
+                Console.WriteLine("employee is absent");
+            }
+        }
     }
 }
+
+       
+
+
+    
+    
+
+
